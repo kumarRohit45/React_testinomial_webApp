@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.App{
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+
+.full-card{
+  width: 40vw;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+ position: relative;
+  
+}
+.card{
+/* height: 20rem; */
+  background-color: white;
+  padding: 3rem;
+ padding-bottom: 7rem;
+  border-radius: 7px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.card img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: -3rem;
+  left: 1rem;
+
+}
+
+.Heading{
+  font-size: 1.6rem;
+  font-weight: bold;
+  /* margin-bottom:4rem; */
+  z-index: 2;
+
+ 
+}
+
+.title{
+  color: grey;
+  text-transform: uppercase;
+  font-size: 0.66rem;
+}
+
+.underline{
+  height: 2px;
+ margin-bottom: 2rem;
+
+  width: 100px;
+  background-color: rgb(149, 93, 234);
+  border-radius:2px ;
+}
+
+.name{
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.quotes{
+  color: rgb(149, 93, 234);
+}
+.review{
+  text-align: justify;
+}
+.side-btn{
+  color: rgb(149, 93, 234);
+  margin-inline: 1rem;
+  background-color: transparent;
+  border: none;
+  font-size: larger;
+
+ 
+
+  
+
+}
+.surprise-btn{
+  background-color: rgb(149, 93, 234);
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius:4px ;
+  color: white;
+  position: absolute;
+   top: 70%; 
+   z-index: 2;
+   left: 12.5rem;
+   
+}
+
+.surprise-btn:hover{
+  background-color: rgb(72, 13, 160);
+  cursor: pointer;
+}
+
+.side-btn1{
+  position: absolute;
+  bottom:8.5rem;
+  left: 11rem;
+  z-index: 5;
+}
+
+.side-btn:hover{
+  color: rgb(72, 13, 160);
+  cursor: pointer;
+}
+.side-btn2{
+  position: absolute;
+  bottom:8.5rem;
+  right: 11rem;
+  z-index: 5;
+  
+}
+
+.bg{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* object-fit: cover; */
+  background-color: rgb(149, 93, 234);
+  position: absolute;
+  top: -3.4rem;
+  left: 1.7rem;
+  z-index: -1;
+}
